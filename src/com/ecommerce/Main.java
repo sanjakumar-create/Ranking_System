@@ -21,6 +21,9 @@ public class Main {
         store.add(new Order("002", "Mouse", 10, 20, 5, LocalDateTime.now()));
         store.add(new Order("001", "Mouse", 7, 1000, 50, LocalDateTime.now()));
         store.add(new Order("002", "Mouse", 23, 20, 5, LocalDateTime.now()));
+        store.add(new Order("002", "Mouse", 10, 20, 5, LocalDateTime.now()));
+        store.add(new Order("001", "Mouse", 7, 1000, 50, LocalDateTime.now()));
+        store.add(new Order("002", "Mouse", 23, 20, 5, LocalDateTime.now()));
 
         System.out.println("Initial Report:");
         dashboard.showReport();
